@@ -1,0 +1,591 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+/* NAVBAR AND HEADER */
+
+.navie {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 220px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+}
+
+.alamat {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.alamat ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.search-login {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-login ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 10px;
+}
+
+.headers {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  background-image: url(image/background-header.png);
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.teks-head {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.order-card {
+  display: flex;
+  width: 500px;
+  height: 110px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 16px;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: 70px;
+  padding: 15px;
+}
+
+.top-tab {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.deliv {
+  display: flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+  border-radius: 8px;
+  background: rgba(241, 114, 40, 0.1);
+}
+
+.deliv-icon {
+  display: flex;
+  color: #f17228;
+  gap: 8px;
+}
+
+.pickup {
+  display: flex;
+  padding: 10px 24px;
+  align-items: flex-start;
+}
+
+.pickup-icon {
+  display: flex;
+  color: #757575;
+  gap: 8px;
+}
+
+.bot-tab {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.enterad-ic {
+  width: 350px;
+  display: flex;
+  padding: 7px 0px 8px 16px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  color: #9e9e9e;
+}
+
+.right-side {
+  padding-top: 200px;
+  padding-right: 70px;
+}
+
+.right-side img {
+  height: 300px;
+}
+
+/* NAVBAR AND HEADER */
+
+/* FLASH DEALS */
+
+.flash-deals {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.fd-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* FLASH DEALS */
+
+/* HOW DOES IT WORK */
+
+.tutorials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 80px;
+  background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) 0%, rgba(253, 237, 202, 0) 100%);
+}
+
+.tutor-text {
+  padding-top: 40px;
+  padding-bottom: 18px;
+  color: #f17228;
+  text-align: center;
+}
+
+.tutor-frames {
+  display: flex;
+  flex-direction: row;
+}
+
+/* HOW DOES IT WORK */
+
+/* POPULAR ITEMS */
+
+.popular-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 80px;
+}
+
+.popitems-frames {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.popitems-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+/* POPULAR ITEMS */
+
+/* FEATURED RESTAURANTS */
+
+.featured-restaurants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+
+.menuframe1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.foodworld {
+  display: flex;
+  flex-direction: column;
+}
+
+.fw-promo {
+  position: relative;
+  bottom: 148px;
+  left: 6px;
+}
+
+.fw-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.fw-logo img {
+  height: 25px;
+}
+
+.fwrate {
+  font-size: 10px;
+}
+
+.fw-info {
+  padding-top: 10px;
+}
+
+.pizzahub {
+  display: flex;
+  flex-direction: column;
+}
+
+.pizzahub-promo {
+  position: relative;
+  bottom: 148px;
+  left: 6px;
+}
+
+.pizzapino {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.pizzahub-rate {
+  font-size: 10px;
+}
+
+.pizzahub-info {
+  padding-top: 10px;
+}
+
+.donutshut {
+  display: flex;
+  flex-direction: column;
+}
+
+.dh-promo {
+  position: relative;
+  bottom: 148px;
+  left: 6px;
+}
+
+.dundon {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.dd-rate {
+  font-size: 10px;
+}
+
+.dh-info {
+  padding-top: 10px;
+}
+
+.menuframe2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.promo {
+  position: relative;
+  bottom: 148px;
+  left: 6px;
+}
+
+.resto-prof {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.resto-profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.resto-rate {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+}
+
+.resto-info {
+  padding-top: 10px;
+}
+
+/* FEATURED RESTAURANTS */
+
+/* SEARCH BY FOOD */
+.search-by-food {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 150px 40px 150px;
+}
+
+.top-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.lefts {
+  display: flex;
+}
+
+.rights {
+  display: flex;
+  align-items: center;
+}
+
+.rights img {
+  height: 70px;
+}
+
+.bottom-tab {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+.bottom-tab img {
+  height: 150px;
+}
+/* SEARCH BY FOOD */
+
+/* INSTALL APP */
+.install-app {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+.top-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #feefd0;
+  justify-content: space-around;
+  padding: 130px 0px 80px 0px;
+}
+
+.top-border {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 46px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.top-border img {
+  height: 70px;
+}
+
+.bot-side {
+  display: flex;
+  justify-content: center;
+}
+
+.bot-side img {
+  height: 387.5px;
+}
+/* INSTALL APP */
+
+/* LAST MENU */
+.the-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.the-menu img {
+  width: 800px;
+}
+/* LAST MENU */
+
+/* LAST CONTENT */
+.last-con {
+  background-image: url(image/last\ bg.png);
+  background-size: 100% 100%;
+  background-position: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/* FOOTER START */
+footer {
+  background: var(--theme-gray-900, #212121);
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 150px 90px 150px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-cities {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 30px;
+}
+
+.the-cities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cities1 ul li {
+  list-style: none;
+}
+
+.cities2 ul li {
+  list-style: none;
+}
+
+.cities3 ul li {
+  list-style: none;
+}
+
+.cities4 ul li {
+  list-style: none;
+}
+
+.cities5 ul li {
+  list-style: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.menu-subs-rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company ul li {
+  list-style: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+.legal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.legal ul li {
+  list-style: none;
+}
+
+.subs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.email-subs {
+  display: flex;
+  flex-direction: row;
+}
+
+.enter-email {
+  flex-direction: row;
+  width: 230px;
+  display: flex;
+  padding: 7px 0px 8px 16px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  background-color: #424242;
+  color: #9e9e9e;
+  height: 40px;
+}
+
+.subs-button img {
+  position: relative;
+  bottom: 14px;
+}
+
+.rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-rights {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.ri-rights {
+  display: flex;
+  flex-direction: row;
+}
